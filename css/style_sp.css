@@ -1,0 +1,189 @@
+@media screen and (max-width: 1024px) {
+  .-card__item__img img {
+    width: 100%;
+  }
+  .works__content__list {
+    padding: 60px;
+  }
+  .index_txt span.index_title {
+    letter-spacing: 20px;
+  }
+  .index_txt span.index_date {
+    letter-spacing: 11px;
+  }
+  span.img_title {
+    font-size: 13rem;
+  }
+  .port_txt table tr th:last-child {
+    text-align: center;
+    padding-right: 0;
+  }
+  .card.about {
+    padding: 0 60px;
+  }
+  .card_block .pro_img.left {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .card_block .pro_txt.right {
+    float: none;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .img-responsive.about_bg {
+    left: -10px;
+  }
+  .contact {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .port_txt table td:last-child {
+    text-indent: 0;
+    padding-right: 10px;
+  }
+
+  .works__content__list {
+    padding: 30px;
+  }
+  .-card__item__img .-title {
+    font-size: 9rem;
+  }
+  .index_txt span.index_title {
+    font-size: 10rem;
+  }
+  .works_body {
+    width: 100%;
+  }
+
+  .card {
+    padding: 30px;
+  }
+  span.img_title {
+    font-size: 10rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .-card__item__text .-table dt {
+    width: 130px;
+  }
+  .works__content__list {
+    padding: 10px;
+  }
+  .-card__item__img .-title {
+    font-size: 5rem;
+  }
+  img.img-responsive {
+    width: 100%;
+  }
+  html {
+    font-size: 9px;
+  }
+  .index_txt {
+    top: 50%;
+  }
+  .index_txt .index_top {
+    font-size: 5rem;
+  }
+  .index_txt span.index_title {
+    font-size: 3rem;
+  }
+  .index_txt span.index_date {
+    letter-spacing: 1px;
+  }
+  .main_visual_wrap__video {
+    height: 100vh;
+  }
+  .works_modal {
+    overflow-x: scroll;
+  }
+  .works_body {
+    left: 0;
+    top: 0;
+    height: auto;
+    transform: translate(0, 0);
+  }
+  .works_menu {
+    display: block;
+  }
+  .works_menu_left,
+  .works_menu_right {
+    width: 100%;
+  }
+  .port_img span.img_subtit {
+    bottom: 4%;
+  }
+  .card {
+    padding: 10px;
+  }
+  .card_block {
+    margin: 120px 0 0;
+  }
+  span.img_title {
+    font-size: 5rem;
+  }
+  span.img_subtit {
+    font-size: 1.5rem;
+  }
+  .main_visual_wrap {
+    overflow: hidden;
+  }
+  .left,
+  .right {
+    float: none;
+  }
+  .port_txt div {
+    width: 100%;
+  }
+  .port_txt .right {
+    margin-top: 30px;
+  }
+  .port_txt table td:last-child {
+    padding-right: 0;
+    text-align: center;
+    text-indent: 0;
+  }
+  .about_thum {
+    left: 0;
+    position: static;
+  }
+  .skill ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skill ul li {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  .skill_txt {
+    width: 100%;
+  }
+  .skill_con {
+    display: flex;
+  }
+  .line_bt {
+    width: 100%;
+  }
+  .line_bt a {
+    margin-right: 0;
+    float: none;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .card.about {
+    padding: 0 10px;
+  }
+  .contact {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .skill_bar {
+    width: 0;
+  }
+  .port_txt table {
+    width: 100%;
+  }
+}
