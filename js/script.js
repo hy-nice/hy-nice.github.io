@@ -17,6 +17,24 @@ $(function () {
     } else {
       $(".gotop").stop().fadeOut(200);
     }
+
+    var scrollY = $(window).scrollTop();
+
+    if (aboutY - 150 < scrollY) {
+      skill_ps.animate(1.0);
+      skill_ai.animate(1.0);
+      skill_xd.animate(1.0);
+      skill_html.animate(1.0);
+      skill_css.animate(1.0);
+      skill_js.animate(1.0);
+    } else if (aboutY > scrollY) {
+      skill_ps.animate(0);
+      skill_ai.animate(0);
+      skill_xd.animate(0);
+      skill_html.animate(0);
+      skill_css.animate(0);
+      skill_js.animate(0);
+    }
   });
   $(".gotop").click(function () {
     $("html, body").animate(
@@ -100,25 +118,6 @@ $(function () {
     trailWidth: 1,
   });
 
-  $(window).scroll(function () {
-    var scrollY = $(window).scrollTop();
-
-    if (aboutY - 150 < scrollY) {
-      skill_ps.animate(1.0);
-      skill_ai.animate(1.0);
-      skill_xd.animate(1.0);
-      skill_html.animate(1.0);
-      skill_css.animate(1.0);
-      skill_js.animate(1.0);
-    } else if (aboutY > scrollY) {
-      skill_ps.animate(0);
-      skill_ai.animate(0);
-      skill_xd.animate(0);
-      skill_html.animate(0);
-      skill_css.animate(0);
-      skill_js.animate(0);
-    }
-  });
   var portBts = $(".port_bt > a");
   var speed = 2500;
   var btH = 306;
